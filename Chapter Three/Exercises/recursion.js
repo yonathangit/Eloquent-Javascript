@@ -1,6 +1,6 @@
 function isEven (num){
     if(num < 0){
-        console.log("Please input a positive whole number!")
+        return isEven(-num);
     }
     else{
         if(num == 0)
